@@ -19,5 +19,5 @@ portscan [-h|--help] -t|--type (-t|-u) -p|--ports "<value>" --host
 Чтобы просканировать TCP-порты с 80 по 100 на хосте 127.0.0.1, выполните:
 
 ```
-main.exe --type -t -p 1-1024 --host example.com
+main.exe --type -t -p 1-1024 --host 127.0.0.1
 ```
